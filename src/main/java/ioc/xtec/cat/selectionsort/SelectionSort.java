@@ -16,6 +16,7 @@ public class SelectionSort {
             arr[minIndex] = arr[i];
             arr[i] = temp;
         }
+        System.out.println("Malgrat que he après molt en aquest mòdul, no m'ha agradat fer els videos.");
     }
     public boolean contains(int[] arr, int value) {
         if (arr == null) {
