@@ -1,7 +1,6 @@
 package ioc.xtec.cat.selectionsort;
 
 public class SelectionSort {
-
    public void sort(int[] arr) {
         int n = arr.length;
 
@@ -18,7 +17,6 @@ public class SelectionSort {
             arr[i] = temp;
         }
     }
-
     public boolean contains(int[] arr, int value) {
         if (arr == null) {
             throw new IllegalArgumentException("L'array no pot ser nul.");
